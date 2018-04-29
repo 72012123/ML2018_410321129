@@ -6,13 +6,15 @@ k1 = Image.open("key1.png")
 k2 = Image.open("key1.png")
 i = Image.open("I.png")
 w = [10, 10, 10]
-w = w.T
 width = k1.width
 height = k1.height
 
-while Epoch < 10:
-    for k in range(0, width*height):
-        a[k] = 
+while Epoch < 10 and :
+    for i in range(0, width):
+        for j in range(0, height)
+            a[0] = w[0]*k1.getpixel((x, y))
+            a[1] = w[1]*k2.getpixel((x, y))
+            a[2] = w[2]*i.getpixel((x, y))
     Epoch += 1
     
     
