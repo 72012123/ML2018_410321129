@@ -1,35 +1,19 @@
+from PIL import Image
 import numpy as np
 
 Epoch = 1
-k1 = numpy.loadtxt('k1.txt')
-k2 = numpy.loadtxt('k2.txt')
-i = numpy.loadtxt(i.txt)
+k1 = Image.open("key1.png")
+k2 = Image.open("key1.png")
+i = Image.open("I.png")
+w = [10, 10, 10]
+w = w.T
+width = k1.width
+height = k1.height
 
-class AdalineGD(object):
+while Epoch < 10:
+    for k in range(0, width*height):
+        a[k] = 
+    Epoch += 1
+    
+    
 
-    def __init__(self, eta=0.01, epochs=50):
-        self.eta = eta
-        self.epochs = epochs
-
-    def train(self, X, y):
-
-        self.w_ = np.zeros(1 + X.shape[1])
-        self.cost_ = []
-
-        for i in range(self.epochs):
-            output = self.net_input(X)
-            errors = (y - output)
-            self.w_[1:] += self.eta * X.T.dot(errors)
-            self.w_[0] += self.eta * errors.sum()
-            cost = (errors**2).sum() / 2.0
-            self.cost_.append(cost)
-        return self
-
-    def net_input(self, X):
-        return np.dot(X, self.w_[1:]) + self.w_[0]
-
-    def activation(self, X):
-        return self.net_input(X)
-
-    def predict(self, X):
-        return np.where(self.activation(X) >= 0.0, 1, -1)
