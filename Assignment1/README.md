@@ -24,7 +24,7 @@ Image Decryption by Single-Layer Neual Network
 ![image](https://github.com/72012123/ML2018_410321129/blob/master/Assignment1/image/Eprime-decrypted.png?raw=true)
 
 
-W的值
+# W的值
 
 w1 = 0.24914330709723681
 
