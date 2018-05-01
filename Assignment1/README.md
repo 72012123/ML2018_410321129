@@ -13,5 +13,5 @@ Image Decryption by Single-Layer Neual Network
 
 2.使用Adaptive Least Mean Square Error Method by Gradient Descent演算法算出 w1, w2, w3的值
 
-3.
+3.在使用取得的w1, w2, w3的值解密取得圖片
 
