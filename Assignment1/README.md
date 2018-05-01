@@ -15,6 +15,12 @@ Image Decryption by Single-Layer Neual Network
 
 3.在使用取得的w1, w2, w3的值解密取得圖片
 
+# Gradient Descent
+
+針對隨機化的w1, w2, w3使用下列的演算法訓練
+
+![image](https://github.com/72012123/ML2018_410321129/blob/master/Assignment1/image/%E8%99%9B%E6%93%AC%E7%A2%BC.JPG?raw=true)
+
 解密前:
 
 ![image](https://github.com/72012123/ML2018_410321129/blob/master/Assignment1/image/Eprime.png?raw=true)
@@ -22,7 +28,6 @@ Image Decryption by Single-Layer Neual Network
 解密後:
 
 ![image](https://github.com/72012123/ML2018_410321129/blob/master/Assignment1/image/Eprime-decrypted.png?raw=true)
-
 
 # W的值
 
