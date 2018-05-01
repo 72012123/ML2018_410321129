@@ -15,3 +15,20 @@ Image Decryption by Single-Layer Neual Network
 
 3.在使用取得的w1, w2, w3的值解密取得圖片
 
+解密前:
+
+![image](https://github.com/72012123/ML2018_410321129/blob/master/Assignment1/image/Eprime.png?raw=true)
+
+解密後:
+
+![image](https://github.com/72012123/ML2018_410321129/blob/master/Assignment1/image/Eprime-decrypted.png?raw=true)
+
+
+W的值
+
+w1 = 0.24914330709723681
+
+w2 = 0.66138190104153194
+
+w3 = 0.08923952571665969
+
