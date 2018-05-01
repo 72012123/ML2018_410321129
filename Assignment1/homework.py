@@ -27,4 +27,5 @@ while Epoch < 2:
 decrypted = (Eprime-(w[0]*k1)-(w[1]*k2))/w[2]
 print(w[0],w[1],w[2])
 plt.imshow(decrypted,plt.cm.gray)
+plt.savefig('Eprime-decrypted.png')
 plt.show()
